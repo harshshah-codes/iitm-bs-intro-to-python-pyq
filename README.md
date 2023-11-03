@@ -6,3 +6,6 @@ For questions visit the questions.md file in the repository or [click here](http
 
 ## Solutions
 For solutions visit the solutions directory or [click here](https://github.com/harshshah-codes/iitm-bs-intro-to-python-pyq/tree/main/solutions)
+
+---
+Found it helpful, do star ⭐️ the repository
