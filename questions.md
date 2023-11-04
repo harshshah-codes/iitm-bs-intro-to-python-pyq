@@ -1,3 +1,5 @@
+<html style="scroll-behaviour:smooth">
+<body>
 <details>
   <summary> Table Of Contents </summary>
   <ul>
@@ -216,3 +218,5 @@ and `G` stands for the food source. For example, the grid-world on the left is r
 ---
 Write a function named `is_reachable` that accepts a `n` times `n` matrix of strings named `grid` as argument. Return  `(True, steps)` 
 if the ant can reach the food source, where `steps` is the number of steps the ant needs to take. If it can't reach the food source, return `(False, None)`
+</body>
+</html>
