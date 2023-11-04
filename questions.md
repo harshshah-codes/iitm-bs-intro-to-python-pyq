@@ -43,22 +43,22 @@ Find the box which has the maximum number of coins. If there are two boxes which
 
 In this case, `3` is the output as box-3 has the maximum number of coins in it.
 
-## Question - 4
+## Question - 5
 Accept a positive integer `A` as input and print the dimensions of all rectangles with integer sides that have an area equal to `A`. Treat a square as a rectangle with equal sides. In each line, print the dimension of one rectangle as a pair of comma separated integers `a,b`
 — such that a ≤ b. The
 dimension of one rectangle as a pair of comma separated integers —
 rectangle with sides a and b should be printed exactly once. That is, `(a,b)` and `(b,a)`represent the same rectangle.
 
-## Question - 5
+## Question - 6
 Sort a list `L` of items in non-decreasing order and store it in the list `soretd_L`. All items in the list are of the same type. This common type could be `int`, `float` or `str`. The list `L` is already given to you.
 
 **Note**: You must write your solution within the function `sort`. Indent all your code by four spaces.
 
-## Question - 6
+## Question - 7
 Accept a positive integer `n` as input and find the print the smallest integer that is divisible by all the
 integers in the range [1,n], endpoints inclusive.
 
-## Question - 7
+## Question - 8
 Consider a sequence of words. A sub-sequence is a subset of consecutive words in this sequence. For example, given the following sequence:
 
 1. one,two,order
@@ -81,7 +81,7 @@ Your task is to find the length of the longest sub-sequence with the antakshari 
 ---
 Accept a sequence of comma separated words as input and print the length of the longest sub- sequence with the antakshari property. All words in the sequence will be in lower case.
 
-## Question - 8
+## Question - 9
 This problem is about reversing a square matrix along row or column. Reversing a matrix along the rows is to perform the following operation:
 
 ![Alt text](assets/image.png)
@@ -92,7 +92,7 @@ Reversing a matrix along the columns is to perform the following operation:
 The first line of the input will be an integer `n`, which denotes the dimension of the square matrix. Each of the next `n` lines in the input will have a sequence of `n` comma-separated integers. The last line in the input will be one of these two words: `row` or `column`. If it is `row`, then reverse the matrix along the `row`, else, reverse it along the `column`.
 Print the reversed matrix as output: each line should contain one row of the matrix as a sequence of comma-separated integers.
 
-## Question - 9
+## Question - 10
 A string `str_1` is a substring of another string `str_2` , if `str_1` is present as a sequence of consecutive characters in `str_2`. For example, `got` is a substring of `gottingen`,
 whereas `got` is not a substring of `goat`.
 
@@ -100,31 +100,31 @@ whereas `got` is not a substring of `goat`.
 Accept a sequence of comma separated words as input. Print that word in the sequence which is a substring of every other word in the sequence.
 If you do not find any word that is a common substring of all words in the sequence, print `None`. Assume that all the words will be in lower case.
 
-## Question - 10
+## Question - 11
 A number is called a `double palindrome` if both the number and its square are palindromes. For
 example, 11 is `double palindrome` as both 11 and 121 are palindromes. Accept a positive
 integer `n` as input and print all the double palindromes less than or equal to `n` in ascending order.
 
-## Question - 11
+## Question - 12
 Three rectangular matrices `A`, `B` and `C` are provided to you. You need to compute the product of these three matrices: A×B×C. Store the results of this matrix multiplication in a matrix named as `prod`. Each of these matrices is a list of lists.
 
 ---
 You do not have to accept input from the console or print the output to the console. You just have to write your code within the function `multiply`. Make sure to indent all your code by four spaces.
 
-## Question - 12
+## Question - 13
 `para` is a sequence of space-separated words. All words will be in lower case. There will be a single space between consecutive words. The string has no other special characters other than the space.
 
 ---
 Write a function named `exact_count` that accepts the string `para` and a positive integer `n` as arguments. You have to return `True` if there is atleast one word in `para` that occurs exactly `n` times, `False` otherwise.
 
-## Question - 13
+## Question - 14
 Your task is to do simple word problems such as this: `one plus two plus three`. The answer is 6.
 
 ---
 Accept a sequence of space-separated words as input. Each word is either a digit from "zero" to "nine" (endpoints inclusive) or one of the two operands: "plus" or "minus". The operands and operators alternate in the sequence. In other words, no two consecutive words will be of the same type.
 You have to find the solution of this arithmetic problem and print the answer as an integer. Evaluate the expression without introducing brackets anywhere, i.e., `minus one plus two minus three` is just −1+2−3.
 
-## Question - 14
+## Question - 15
 The price of a steel rod is generally a simple function of its length. However, requirements of companies also influence the price. If you are selling rods to a company that has a preference for short rods and doesn't use too many long rods, the price distribution could look like this:
 
 | Rod-Length | Price |
@@ -142,7 +142,7 @@ Your task is to accept the length of a rod and the price distribution as inputs.
 
 First line of input is the length of the rod, `L`. The second line is a sequence of L comma separated integers that corresponds to the selling prices of rods of lengths `(1,2,3,⋯,L−1,L)`. Print the maximum revenue that can be obtained with at most one cut of the given rod.
 
-## Question - 15
+## Question - 16
 Write a recursive function named `subsets` that accepts a non-empty list of distinct integers `L` as argument. It should return the list of all subsets of `L`.
 
 1. Each subset is to be represented as a list of numbers.
@@ -150,7 +150,7 @@ Write a recursive function named `subsets` that accepts a non-empty list of dist
 3. The order in which you append the subsets to the returned list doesn't matter.
 4.  The empty list is a subset for all lists.
 
-## Question - 16
+## Question - 17
 Consider an irrational number in the following form:
 $$
 a+b\sqrt{p}
@@ -173,7 +173,7 @@ Write a function named `compute`  that accepts the integers `a`, `b`, `p` and `n
 ---
 You do not have to accept input from the user or print output to the console. You just have to write the function definition.
 
-## Question - 16
+## Question - 18
 Consider a grid-world that is inhabited by an ant `(BLUE)`. The ant can move only in two directions: `UP` or `RIGHT`. The ant has sensed the presence of a source of food somewhere in the grid. Your task is twofold:
 
 1. Determine if the ant can reach the food source.
