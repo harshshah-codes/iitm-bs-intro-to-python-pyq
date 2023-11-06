@@ -88,6 +88,8 @@ integers in the range [1,n], endpoints inclusive.
 ## Question - 8
 Consider a sequence of words. A sub-sequence is a subset of consecutive words in this sequence. For example, given the following sequence:
 
+`one,two,order,real,long,tight,tree,cool,lot,trouble`
+
 1. one,two,order
 2. real,long,tight,tree
 3. cool
