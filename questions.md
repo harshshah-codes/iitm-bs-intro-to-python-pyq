@@ -117,7 +117,9 @@ This problem is about reversing a square matrix along row or column. Reversing a
 
 Reversing a matrix along the columns is to perform the following operation:
 ![Alt text](assets/image-2.png)
+
 ---
+
 The first line of the input will be an integer `n`, which denotes the dimension of the square matrix. Each of the next `n` lines in the input will have a sequence of `n` comma-separated integers. The last line in the input will be one of these two words: `row` or `column`. If it is `row`, then reverse the matrix along the `row`, else, reverse it along the `column`.
 Print the reversed matrix as output: each line should contain one row of the matrix as a sequence of comma-separated integers.
 
